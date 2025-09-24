@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "title": "Naruto Hoodie",
+    "category": "Hoodies",
+    "price": 35.99,
+    "image": "https://example.com/images/naruto_hoodie.jpg"
+  },
+  {
+    "id": 2,
+    "title": "One Piece T-Shirt",
+    "category": "T-Shirts",
+    "price": 19.99,
+    "image": "https://example.com/images/onepiece_tshirt.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Attack on Titan Jacket",
+    "category": "Jackets",
+    "price": 59.99,
+    "image": "https://example.com/images/aot_jacket.jpg"
+  },
+  {
+    "id": 4,
+    "title": "My Hero Academia Cap",
+    "category": "Caps",
+    "price": 14.99,
+    "image": "https://example.com/images/mha_cap.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Demon Slayer Sweatshirt",
+    "category": "Sweatshirts",
+    "price": 39.99,
+    "image": "https://example.com/images/demonslayer_sweatshirt.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Tokyo Revengers Hoodie",
+    "category": "Hoodies",
+    "price": 36.99,
+    "image": "https://example.com/images/tokyorevengers_hoodie.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Dragon Ball Z T-Shirt",
+    "category": "T-Shirts",
+    "price": 18.99,
+    "image": "https://example.com/images/dbz_tshirt.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Jujutsu Kaisen Jacket",
+    "category": "Jackets",
+    "price": 57.99,
+    "image": "https://example.com/images/jjk_jacket.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Bleach Cap",
+    "category": "Caps",
+    "price": 13.99,
+    "image": "https://example.com/images/bleach_cap.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Fairy Tail Sweatshirt",
+    "category": "Sweatshirts",
+    "price": 38.99,
+    "image": "https://example.com/images/fairy_tail_sweatshirt.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Sword Art Online Hoodie",
+    "category": "Hoodies",
+    "price": 37.99,
+    "image": "https://example.com/images/sao_hoodie.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Death Note T-Shirt",
+    "category": "T-Shirts",
+    "price": 17.99,
+    "image": "https://example.com/images/deathnote_tshirt.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Fullmetal Alchemist Jacket",
+    "category": "Jackets",
+    "price": 60.99,
+    "image": "https://example.com/images/fma_jacket.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Naruto Headband Cap",
+    "category": "Caps",
+    "price": 15.99,
+    "image": "https://example.com/images/naruto_cap.jpg"
+  },
+  {
+    "id": 15,
+    "title": "One Punch Man Sweatshirt",
+    "category": "Sweatshirts",
+    "price": 36.99,
+    "image": "https://example.com/images/opm_sweatshirt.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Black Clover Hoodie",
+    "category": "Hoodies",
+    "price": 34.99,
+    "image": "https://example.com/images/blackclover_hoodie.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Tokyo Ghoul T-Shirt",
+    "category": "T-Shirts",
+    "price": 20.99,
+    "image": "https://example.com/images/tokyoghoul_tshirt.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Hunter x Hunter Jacket",
+    "category": "Jackets",
+    "price": 55.99,
+    "image": "https://example.com/images/hxh_jacket.jpg"
+  },
+  {
+    "id": 19,
+    "title": "One Piece Cap",
+    "category": "Caps",
+    "price": 14.49,
+    "image": "https://example.com/images/onepiece_cap.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Naruto Sweatshirt",
+    "category": "Sweatshirts",
+    "price": 39.49,
+    "image": "https://example.com/images/naruto_sweatshirt.jpg"
+  },
+  {
+    "id": 21,
+    "title": "My Hero Academia Hoodie",
+    "category": "Hoodies",
+    "price": 36.49,
+    "image": "https://example.com/images/mha_hoodie.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Dragon Ball Z T-Shirt",
+    "category": "T-Shirts",
+    "price": 19.49,
+    "image": "https://example.com/images/dbz_tshirt2.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Demon Slayer Jacket",
+    "category": "Jackets",
+    "price": 58.49,
+    "image": "https://example.com/images/demonslayer_jacket2.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Bleach Sweatshirt",
+    "category": "Sweatshirts",
+    "price": 37.49,
+    "image": "https://example.com/images/bleach_sweatshirt.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Jujutsu Kaisen Hoodie",
+    "category": "Hoodies",
+    "price": 35.49,
+    "image": "https://example.com/images/jjk_hoodie.jpg"
+  }
+]
