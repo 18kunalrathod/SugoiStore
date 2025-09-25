@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SugoiStore cart</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+
+     <!-- Navbar -->
+  <nav>
+    <div class="navbar" id="navbar">
+      <div class="left-navbar">
+        <div class="logo-wrapper">
+          <img src="/sugoiStore/logo/Gemini_Generated_Image_rr4aworr4aworr4a.png" alt="sugoiStore" style="width:100px;height:100px;">
+        </div>
+        <div class="nav-links">
+          <a href="index.html">HOME</a>
+          <a href="catalog.html">CATALOG</a>
+          <a href="cart.html">CART</a>
+        </div>
+      </div>
+      <div class="right-navbar">
+        <input type="search" name="search" id="searchInput" placeholder="Search Merch ⸜(｡˃ ᵕ ˂ )⸝♡">
+        <img src="/sugoiStore/Img/loupe.png" alt="search-Logo" style="width:32px;height:32px;">
+        <img src="/sugoiStore/Img/heart.png" alt="wishlist" style="width:32px;height:32px;">
+        <img src="/sugoiStore/Img/shopping-bag.png" alt="cart" style="width:32px;height:32px;">
+        <img src="/sugoiStore/Img/user.png" alt="user" style="width:32px;height:32px;">
+      </div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <a href="#" class="closeBtn" id="closeBtn">&times;</a>
+    <a href="index.html">HOME</a>
+    <a href="catalog.html">CATALOG</a>
+    <a href="cart.html">CART</a>
+  </div>
+
+
+     <!-- Cart Page -->
+  <section id="cart-page">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div id="cart-total"></div>
+  </section>
+</body>
+<script src="app.js"></script>
+</html>
