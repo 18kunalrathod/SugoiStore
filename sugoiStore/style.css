@@ -1,84 +1,232 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    font-family: "Barlow Condensed", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
-nav{
-    border: 1px solid red;
-    width: 100%;
-    background-color: #910F0D;
+nav {
+  width: 100%;
+  background-color: #910F0D;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
-#navbar{
+nav.transition{
+    background-color: rgba(145, 15, 13, 0.2)
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}
+
+.left-navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.right-navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-navbar input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.sidebar .closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.sidebar a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #910F0D;
+}
+
+
+/* Hero Section */
+
+    .hero-section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .hero-section img{
+        height: 100vh;
+        
+    }
+
+/* Hero Section */
+
+/* four product section */
+#display-four-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* space between cards */
+  align-items: flex-start; /* align items at the top */
+  flex-wrap: wrap; /* if screen is small, wrap them */
+  margin: 30px auto;
+  gap: 20px;
+}
+
+.product-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.product-card img{
+    width: 250px;
+    height: 300px;
+    cursor: pointer;
+}
+/* four product section */
+
+/* soon to launch products  */
+.launching {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+   flex-wrap: wrap;
+  padding-top: 100px;
 }
 
-.left-navbar{
-    border: 1px solid black;
-    width: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.deskmats ,
+.figurines,
+.manga,
+.sketchbook{
+  width: 50%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;     
+  background-position: center; 
+  position: relative;          
+  border-radius: 10px;        
+  overflow: hidden;
+    cursor: pointer;
 }
 
- .nav-links a{
-    color: aliceblue;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 600;
-    margin: 0 10px;
+.deskmats{
+ background-image: url("../hero-img/Zoro__deskmat_dattehameha_Listing_vasu-4-scaled.jpg.webp");
+}
+.figurines{
+     background-image: url("/hero-img/gohan.webp");
+}
+.manga{
+     background-image: url("/hero-img/manga.jpg");
+}
+.sketchbook{
+     background-image: url("/hero-img/deathnote.webp");
 }
 
-.right-navbar{
-    border: 1px solid black;
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
-    gap: 30px;
+.deskmats h4,
+.figurines h4,
+.manga h4,
+.sketchbook h4 {
+  position: absolute;
+  bottom: 10px;          
+  left: 50%;             
+  transform: translateX(-50%); 
+  color: whitesmoke;
+  font-size: 24px;
+  background-color: rgba(0,0,0,0.4); 
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
-.right-navbar input{
-    width: 200px;
-    height: 30px;
-    border-radius: 10px;
-}
 
-.hamburger{
+/* soon to launch products  */
+
+/* Tablet/laptop */
+@media (max-width: 1024px) {
+  .nav-links {
     display: none;
-    font-size: 24px;
-    cursor: pointer;
+  }
+
+  .right-navbar input {
+    width: 150px;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }
 
-.sidebar{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.3s;
-    padding-top: 60px;
-    
+/* Mobile */
+@media (max-width: 480px) {
+  .right-navbar {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #display-four-products{
+    display: grid;
+    grid-template-columns: (1fr, 1);
+  }
+  
 }
-
-.sidebar .closeBtn{
-    position: absolute;
-    top: 20px;
-    right: 25px;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-@media (max-width: 767px) { 
-
- }

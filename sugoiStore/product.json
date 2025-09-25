@@ -3,175 +3,175 @@
     "id": 1,
     "title": "Naruto Hoodie",
     "category": "Hoodies",
-    "price": 35.99,
-    "image": "https://example.com/images/naruto_hoodie.jpg"
+    "price": 3004.16,
+    "image": "https://cdn.animebape.com/wp-content/uploads/2022/11/uzumaki-naruto-naruto-shippuden-streetwear-hoodieejhdd.jpg"
   },
   {
     "id": 2,
     "title": "One Piece T-Shirt",
     "category": "T-Shirts",
-    "price": 19.99,
-    "image": "https://example.com/images/onepiece_tshirt.jpg"
+    "price": 1669.16,
+    "image": "https://images-cdn.ubuy.co.in/65441e1076a4bc55582a506a-one-piece-luffy-bounty-t-shirt.jpg"
   },
   {
     "id": 3,
     "title": "Attack on Titan Jacket",
     "category": "Jackets",
-    "price": 59.99,
-    "image": "https://example.com/images/aot_jacket.jpg"
+    "price": 5001.41,
+    "image": "https://alexgear.com/cdn/shop/files/Attack-On-Titan-Cosplay-Survey-Corps-Jacket.jpg?v=1729026679"
   },
   {
     "id": 4,
     "title": "My Hero Academia Cap",
     "category": "Caps",
-    "price": 14.99,
-    "image": "https://example.com/images/mha_cap.jpg"
+    "price": 1249.16,
+    "image": "https://themysteryshack.com/cdn/shop/products/large-43_630x.jpg?v=1586928678"
   },
   {
     "id": 5,
     "title": "Demon Slayer Sweatshirt",
     "category": "Sweatshirts",
-    "price": 39.99,
-    "image": "https://example.com/images/demonslayer_sweatshirt.jpg"
+    "price": 3339.16,
+    "image": "https://i.etsystatic.com/54523841/r/il/183242/6293308818/il_fullxfull.6293308818_ivm4.jpg"
   },
   {
     "id": 6,
     "title": "Tokyo Revengers Hoodie",
     "category": "Hoodies",
-    "price": 36.99,
-    "image": "https://example.com/images/tokyorevengers_hoodie.jpg"
+    "price": 3084.66,
+    "image": "https://m.media-amazon.com/images/I/51WdpYn3yeL._UY1100_.jpg"
   },
   {
     "id": 7,
     "title": "Dragon Ball Z T-Shirt",
     "category": "T-Shirts",
-    "price": 18.99,
-    "image": "https://example.com/images/dbz_tshirt.jpg"
+    "price": 1586.41,
+    "image": "https://images-cdn.ubuy.co.in/656f828f74a7090ce63e4652-dragon-ball-z-goku-fighting-stance-men-s.jpg"
   },
   {
     "id": 8,
     "title": "Jujutsu Kaisen Jacket",
     "category": "Jackets",
-    "price": 57.99,
-    "image": "https://example.com/images/jjk_jacket.jpg"
+    "price": 4836.16,
+    "image": "https://m.media-amazon.com/images/I/81e8zWBHOyL._UY1100_.jpg"
   },
   {
     "id": 9,
     "title": "Bleach Cap",
-    "category": "Caps",
-    "price": 13.99,
-    "image": "https://example.com/images/bleach_cap.jpg"
+    "category": "Jackets",
+    "price": 1167.16,
+    "image": "https://www.themadshop.com.au/img/product/anime-bleach-ichigo-kurosaki-cosplay-costume-7-xxxl-au-xlxxl-12008321-800.jpg"
   },
   {
     "id": 10,
     "title": "Fairy Tail Sweatshirt",
     "category": "Sweatshirts",
-    "price": 38.99,
-    "image": "https://example.com/images/fairy_tail_sweatshirt.jpg"
+    "price": 3239.16,
+    "image": "https://img.joomcdn.net/bf08a2b6829f690e94a2da75733c4745417fe4a1_original.jpeg"
   },
   {
     "id": 11,
     "title": "Sword Art Online Hoodie",
     "category": "Hoodies",
-    "price": 37.99,
-    "image": "https://example.com/images/sao_hoodie.jpg"
+    "price": 3169.16,
+    "image": "https://m.media-amazon.com/images/I/61eOR06GL0L._UY1100_.jpg"
   },
   {
     "id": 12,
-    "title": "Death Note T-Shirt",
+    "title": "Kaiju No 8 T-Shirt",
     "category": "T-Shirts",
-    "price": 17.99,
-    "image": "https://example.com/images/deathnote_tshirt.jpg"
+    "price": 1502.16,
+    "image": "https://www.zamsfashion.in/cdn/shop/files/DSC02971-662412.jpg?v=1721092961"
   },
   {
     "id": 13,
     "title": "Fullmetal Alchemist Jacket",
     "category": "Jackets",
-    "price": 60.99,
-    "image": "https://example.com/images/fma_jacket.jpg"
+    "price": 5093.16,
+    "image": "https://alexgear.com/cdn/shop/files/Full-Metal-Alchemist-Edward-Elric-Red-Coat.jpg?v=1729026623"
   },
   {
     "id": 14,
     "title": "Naruto Headband Cap",
     "category": "Caps",
-    "price": 15.99,
-    "image": "https://example.com/images/naruto_cap.jpg"
+    "price": 1335.16,
+    "image": "https://m.media-amazon.com/images/I/61J2+XWihgL.jpg"
   },
   {
     "id": 15,
     "title": "One Punch Man Sweatshirt",
     "category": "Sweatshirts",
-    "price": 36.99,
-    "image": "https://example.com/images/opm_sweatshirt.jpg"
+    "price": 3084.66,
+    "image": "https://www.wishiny.com/sites/default/files/625699163928_main_black_69.jpg"
   },
   {
     "id": 16,
     "title": "Black Clover Hoodie",
     "category": "Hoodies",
-    "price": 34.99,
-    "image": "https://example.com/images/blackclover_hoodie.jpg"
+    "price": 2918.16,
+    "image": "https://m.media-amazon.com/images/I/716dn-lMdAL._UY1100_.jpg"
   },
   {
     "id": 17,
     "title": "Tokyo Ghoul T-Shirt",
     "category": "T-Shirts",
-    "price": 20.99,
-    "image": "https://example.com/images/tokyoghoul_tshirt.jpg"
+    "price": 1749.16,
+    "image": "https://i.etsystatic.com/43913091/r/il/1d7a08/5186176648/il_fullxfull.5186176648_o27h.jpg"
   },
   {
     "id": 18,
     "title": "Hunter x Hunter Jacket",
     "category": "Jackets",
-    "price": 55.99,
-    "image": "https://example.com/images/hxh_jacket.jpg"
+    "price": 4661.16,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSntPRKJNkxKDv0BWzgDPfw9QnnSuBleLRs4NAGsJ0Oem5oYDpyuBpJTuMBHrc2t5vUC-5nwDi-LRlMj188YcLuGC2NDiodfMlUfc4PV5yW7taK06Eye2CRFg"
   },
   {
     "id": 19,
     "title": "One Piece Cap",
     "category": "Caps",
-    "price": 14.49,
-    "image": "https://example.com/images/onepiece_cap.jpg"
+    "price": 1208.11,
+    "image": "https://m.media-amazon.com/images/I/61mnsjDscSL._UY350_.jpg"
   },
   {
     "id": 20,
-    "title": "Naruto Sweatshirt",
+    "title": "Dragon Ball Z Sweatshirt",
     "category": "Sweatshirts",
-    "price": 39.49,
-    "image": "https://example.com/images/naruto_sweatshirt.jpg"
+    "price": 3294.42,
+    "image": "https://images-cdn.ubuy.co.in/6560af9d0fabd4056746ac95-dragon-ball-z-kame-symbol-zip-up-hoodie.jpg"
   },
   {
     "id": 21,
     "title": "My Hero Academia Hoodie",
     "category": "Hoodies",
-    "price": 36.49,
-    "image": "https://example.com/images/mha_hoodie.jpg"
+    "price": 3045.92,
+    "image": "https://m.media-amazon.com/images/I/51hHJOTFLUL._UY1100_.jpg"
   },
   {
     "id": 22,
     "title": "Dragon Ball Z T-Shirt",
     "category": "T-Shirts",
-    "price": 19.49,
-    "image": "https://example.com/images/dbz_tshirt2.jpg"
+    "price": 1624.42,
+    "image": "https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/66e3d6a87b8e0f0036e6735c/whatsapp-image-2024-08-24-at-9-59-46-pm-vk-goyal.jpeg"
   },
   {
     "id": 23,
     "title": "Demon Slayer Jacket",
     "category": "Jackets",
-    "price": 58.49,
-    "image": "https://example.com/images/demonslayer_jacket2.jpg"
+    "price": 4879.42,
+    "image": "https://i.etsystatic.com/54089755/r/il/f470a6/7114824970/il_fullxfull.7114824970_l6hf.jpg"
   },
   {
     "id": 24,
-    "title": "Bleach Sweatshirt",
+    "title": "Solo Leveling Sweatshirt",
     "category": "Sweatshirts",
-    "price": 37.49,
-    "image": "https://example.com/images/bleach_sweatshirt.jpg"
+    "price": 3129.42,
+    "image": "https://images-cdn.ubuy.co.in/663bee98c319a779ac7c6713-ioeloveo-solo-leveling-merch-3d-hoodie.jpg"
   },
   {
     "id": 25,
     "title": "Jujutsu Kaisen Hoodie",
     "category": "Hoodies",
-    "price": 35.49,
-    "image": "https://example.com/images/jjk_hoodie.jpg"
+    "price": 2960.42,
+    "image": "https://www.dudeme.in/cdn/shop/files/3_612f4697-def9-49cc-9634-49ee87689861.jpg?v=1687004683"
   }
 ]

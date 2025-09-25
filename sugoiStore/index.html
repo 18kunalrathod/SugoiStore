@@ -1,48 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inconsolata:wght@200..900&display=swap');
-</style>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
-    <title>SugoiStore</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SugoiStore</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="navbar" id="navbar">
-            <div class="left-navbar">
-                <div class="logo-wrapper">
-                    <img src="/logo/Gemini_Generated_Image_rr4aworr4aworr4a.png" alt="sugoiStore" style="width: 100px; height: 100px;">
-                </div>
-                <div class="nav-links">
-                 <a href="#">HOME</a>
-                <a href="#">CATALOG</a>
-                <a href="#">CONTACT</a>
-                </div>
-                
-            </div>
-            <div class="right-navbar">
-                <input type="search" name="serach" id="serachInput" placeholder="Search Merch ⸜(｡˃ ᵕ ˂ )⸝♡">
-                <img src="/Img/loupe.png" alt="search-Logo" style="width: 32px; height: 32px;">
-                <img src="/Img/heart.png" alt="whishlist" style="width: 32px; height: 32px;">
-                <img src="/Img/shopping-bag.png" alt="cart" style="width: 32px; height: 32px;">
-            </div>
-            <!-- Hamburger-menu -->
-             <div class="hamburger" id="hamburger">&#9776;</div>
+  <nav>
+    <div class="navbar" id="navbar">
+      <div class="left-navbar">
+        <div class="logo-wrapper">
+          <img src="/logo/Gemini_Generated_Image_rr4aworr4aworr4a.png" alt="sugoiStore" style="width: 100px; height: 100px;">
         </div>
-    </nav>
+        <div class="nav-links">
+          <a href="#">HOME</a>
+          <a href="#">CATALOG</a>
+          <a href="#">CONTACT</a>
+        </div>
+      </div>
+      <div class="right-navbar">
+        <input type="search" name="search" id="searchInput" placeholder="Search Merch ⸜(｡˃ ᵕ ˂ )⸝♡">
+        <img src="/Img/loupe.png" alt="search-Logo" style="width: 32px; height: 32px;">
+        <img src="/Img/heart.png" alt="wishlist" style="width: 32px; height: 32px;">
+        <img src="/Img/shopping-bag.png" alt="cart" style="width: 32px; height: 32px;">
+      </div>
+      <!-- Hamburger-menu -->
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+  </nav>
 
-    <!-- Sidebar for hamburger -->
-     <div class="sidebar" id="sidebar">
-        <a href="#" class="closeBtn" id="closeBtn">&times;</a>
-        <a href="#">HOME</a>
-        <a href="#">CATALOG</a>
-        <a href="#">CONTACT</a>
-     </div>
+  <!-- Sidebar for hamburger -->
+  <div class="sidebar" id="sidebar">
+    <a href="#" class="closeBtn" id="closeBtn">&times;</a>
+    <a href="#">HOME</a>
+    <a href="#">CATALOG</a>
+    <a href="#">CONTACT</a>
+  </div>
+
+
+  <!-- hero section -->
+
+  <section class="new-hero">
+    <div class="hero-section">
+        <img src="/hero-img/JJK-Collection_Banner_Comicsense_Abhishek.webp" alt="">
+        <img src="/hero-img/Nakama_Hoodie_Banner_asmit-1-600x975.webp" alt="">
+        <img src="/hero-img/Tanjiro_Tapestry_Banner_asmit-768x1248.webp" alt="">
+    </div>
+  </section>
+
+  <!-- display 4 product on landing page section -->
+
+  <div id="display-four-products"></div>
+
+  <!-- Soon to launch -->
+
+  <section class="launching">
+    <div class="deskmats"><h4>Deskmats</h4></div>
+    <div class="figurines"><h4>Figurines</h4></div>
+    <div class="manga"><h4>Manga</h4></div>
+    <div class="sketchbook"><h4>Sketchbook</h4></div>
+  </section>
+
+  <!-- footer hero -->
+
+  <div class="footer-hero">
+    <h3>WEAR THE LEGEND. LIVE THE ANIME</h3>
+    <p><strong>SugoiStore<strong> blends anime mythology with bold, modern fashion.</p>
+        <p>Each peice is creafted to embody the spirit of legendry heroes,</p>
+        <p>cursed enegry, and timeless battles. Join the clan. Embrace the power.</p>
+  </div>
+
+  <!-- footer widget -->
+
+  <footer>
+    <div class="footer-widget">
+        <div class="logo-footer-wrapper">
+            <img src="/logo/Gemini_sugoistore.png" alt="sugoiStore">
+        </div>
+
+        <div class="social-media">
+            <img src="" alt="instagram">
+            <img src="" alt="discord">
+            <img src="" alt="youtube">
+        </div>
+        
+        <div>
+            
+        </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
